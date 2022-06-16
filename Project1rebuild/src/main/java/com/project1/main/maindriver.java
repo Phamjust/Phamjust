@@ -64,12 +64,12 @@ public class maindriver {
 			ctx.result(registry.scrape());
 		});
 
-		// custom metric
-		app.post("/login", ctx -> {
-			System.out.println("I want to keep track of how many people has logged in");
-			total++;
-			counter.increment(1);
-		});
+		// custom metric -- figure out how to move this to request mapper
+//		app.post("/login", ctx -> {
+//			System.out.println("I want to keep track of how many people has logged in");
+//			total++;
+//			counter.increment(1);
+//		});
 
 		// Testing
 //		AuthenticationDao user = new AuthenticationDaoImpl();
