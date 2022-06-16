@@ -17,7 +17,7 @@ public class P1_RequestMapper {
 	public void configureRoutes(Javalin app) {
 		
 		app.get("/hello", ctx -> {
-			ctx.result("hi Dad and Mom!");
+			ctx.result("hi uncle!");
 		});
 
 		// This will be for employee to view all their approved requests
