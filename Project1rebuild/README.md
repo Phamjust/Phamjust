@@ -1,26 +1,31 @@
 # Bank API Project
 
 ## Project Description
-For this project I built an Expense Reimbursement API, where employees of a company are able to submit requests for expenses that occured on company time. Employees are also able to view all their pending and past reimburstment requests. 
-
+For this project I built an Expense Reimbursement API, where employees of a company are able to login and submit requests for expenses that occured on company time. Employees are able to view all their past and currently pending reimburstment requests. On the other hand, managers are able to login and see all past requests and all current pending requests from all employees. 
 
 ## Technologies Used
 
-* Maven
-* Java
+* Apache Maven 3.0.5
+* openjdk version "1.8.0_312"
 * Javalin
-* 
+* Docker & Docker compose
+* Post
+* Micrometer
+* Prometheus
+* Grafana
+* Dbeaver 
 
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Employees as well as managers are able to login
+* Users are able to view all their requests 
+* Mangers are able to approve or deny a request
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* metrics to see how much in total dollars is the company spending on reimburstments
+* Have an option for an employee to edit a request that was already submitted.
+* Let managers add a note to a request they just approved or denied.
 
 ## Getting Started
    
