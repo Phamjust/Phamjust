@@ -9,7 +9,7 @@ For this project I built an Expense Reimbursement API, where employees of a comp
 * openjdk version "1.8.0_312"
 * Javalin
 * Docker & Docker compose
-* Post
+* Postman
 * Micrometer
 * Prometheus
 * Grafana
